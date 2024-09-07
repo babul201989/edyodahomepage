@@ -1,0 +1,264 @@
+body{
+	margin: 0;
+	background-color: rgb(242,246,255);
+}
+/*HEADER SECTION STARTS*/
+header{
+	/*border: 1px solid black;*/
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	padding: 16px 78px;
+	box-shadow: 0px 0px 2px 0px gray;
+}
+
+/*EDYODA AND STORIES LOGO*/
+
+.logo{
+	/*border: 1px solid black;*/
+	width: 290px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	/*margin-right: 50px;*/
+}
+.logo ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.logo ul li{
+	margin-bottom: -5px;
+}
+.logo1{
+	font-size: 32px;
+	font-weight: bolder;
+	/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Archivo Black', sans-serif;	
+}
+.logo1 a{
+	text-decoration: none;
+	color: #0084ff;
+}
+.logo2{
+	font-style: italic;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+.logo2 a{
+	text-decoration: none;
+	color: black;
+}
+
+/*EXPLORE CATEGORIES*/
+
+.explore{
+	/*border: 1px solid black;*/
+	font-size: 17px;
+}
+.explore label{
+	text-decoration: none;
+	color: #000;
+	font-family: 'Tajawal', sans-serif;
+}
+#cat{
+    border-color: #fff;
+}
+
+/*--------------HEADER SECTION ENDED---------------*/
+
+/*LATEST POST SECTION STARTS*/
+
+.section1{
+	/*border: 1px solid black;*/
+	width: 61.5%;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+/*TEXT PART*/
+
+.text1 h1{
+	color: #000;
+	font-weight: 600;
+	font-family: 'Tajawal', sans-serif;
+}
+.text2{
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.text2 img{
+  background-color: blue;
+  width: 35px;
+  height: 22px;
+}
+.text2 b{
+	font-family: 'Tajawal', sans-serif;
+  margin-top: 0px;
+}
+
+/*BUTTONS PART*/
+
+.button1 a{
+	border: 1px solid black; /*This border is must*/
+	display: inline-block;
+	text-decoration: none;
+	padding: 2px 5px;
+	margin: 2px;
+	border-radius: 30px;
+	border-color: #0084ff;
+	color: #0084ff;
+}
+.button1 a:hover{
+	background-color: #0084ff;
+	cursor: pointer;
+}
+
+.button1 a nav{
+	font-weight: 400;
+	font-family: 'Tajawal', sans-serif;
+	padding: 5px 10px;
+}
+.button1 a nav:hover{
+	color: #fff;
+	cursor: pointer;
+}
+
+/*--------------BUTTONS SECTION ENDED---------------*/
+
+/*CARDS SECTION STARTS*/
+
+.section2{
+	/*border: 1px solid black;*/
+	width: 66%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.card a{
+	/*border: 1px solid black;*/
+	text-decoration: none;
+	color: black;
+	width: 35.5%;
+}
+.card{
+	/*border: 1px solid black;*/
+	width: 350px;
+	height: 490px;
+	margin-bottom: 25px;
+	border-radius: 8px;
+	box-shadow: 0px 0px 25px 0px gray;
+	margin-right: 10px;
+}
+
+.card a img{
+	width: 350px;
+	height: 220px;
+	border-radius: 10px 10px 0 0;
+}
+.inner_card{
+	padding: 0 30px;
+}
+.inner_card h3{
+	/*border: 1px solid black;*/
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: 'Tajawal', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	text-align: left;
+	height: 65px;
+	overflow: hidden;
+}
+.inner_card span{
+	font-family: 'Tajawal', sans-serif;
+	font-size: 17px;
+}
+.instructor{
+	color: #0096ff;
+	font-weight: 500;
+	font-style: italic;
+}
+.date{
+	color: rgba(0,0,0,0.7);
+	font-weight: 400;
+	font-size: 17px;
+}
+
+.para{
+	/*border: 1px solid black;*/
+	font-family: 'Tajawal', sans-serif;
+	color: rgba(0,0,0,.6);
+	font-weight: 400;
+	font-size: 17px;
+	height: 118px;
+	overflow: hidden;
+	line-height: 1.43;
+}
+
+/*--------------CARDS SECTION ENDED---------------*/
+
+/*FOOTER SECTION STARTS*/
+
+footer{
+	background-color: #172146;
+	margin-top: 40px;
+	padding: 80px 16%;
+}
+.section3{
+	padding: 80px 0;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*FOOT 1*/
+
+.foot1{
+	width: 300px;
+	margin-left: 80px;
+}
+.foot1 h2{
+	font-family: 'Archivo Black', sans-serif;
+	color: white;
+	margin-bottom: 0;
+}
+.foot1 p{
+	width: 200px;
+}
+.foot1 a{
+	text-decoration: none;
+	color: white;
+	font-weight: 400;
+	font-family: 'Tajawal', sans-serif;
+}
+
+/*FOOT 2*/
+
+.foot2{
+	/*border: 1px solid black;*/
+	width: 400px;
+	margin-left: 80px;
+}
+.foot2 h3{
+	font-family: 'Tajawal', sans-serif;
+	color: gray;
+	padding-left: 40px;
+}
+
+.footer_list{
+	list-style-type: none;
+}
+.footer_list li a{
+	text-decoration: none;
+	font-family: 'Tajawal', sans-serif;
+	color: white;
+	font-weight: 400;
+}
+
+/*--------------FOOTER SECTION ENDED---------------*/
